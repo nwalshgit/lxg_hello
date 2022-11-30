@@ -1,6 +1,7 @@
 import lxg_world
-#import pandas as pd
+import pandas as pd
 
-print("Hello")
-print(lxg_world.world())
-#print(pd.Array([0]))
+def say_hello():
+    print("Hello")
+    lxg_world.world()
+    print(pd.DataFrame([0]))
