@@ -1,0 +1,2 @@
+git+ssh://git@github.com/nwalshgit/lxg_world.git@0.0.1#egg=lxg_world
+pandas
