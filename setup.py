@@ -39,7 +39,7 @@ def install_deps():
 setup(
     install_requires=[
        "<pandas> >= <1.5.0>;",
-       "lxg-world==0.0.1",
+       "<lxg-world> == <0.0.1>",
     ],
     dependency_links=[
         #"git+ssh://git@github.com/nwalshgit/lxg_world.git@0.0.1#egg=lxg_world",
