@@ -34,15 +34,18 @@ def install_deps():
             new_pkgs.append(resource.strip())
     return new_pkgs, links
 
-pkgs, new_links = install_deps()
+#pkgs, new_links = install_deps()
 
 setup(
-    # install_requires=[
-    #    "lxg-world==1.0",
-    # ],
-    # dependency_links=[
-    #     "https://github.com/dmfigol/smartsheet-python.sdk/archive/no-setuptools-scm.zip#egg=smartsheet-python-sdk-10.1.3.3"
-    # ]
+    install_requires=[
+       "pandas",
+       "lxg-world==0.0.1",
+    ],
+    dependency_links=[
+        #"git+ssh://git@github.com/nwalshgit/lxg_world.git@0.0.1#egg=lxg_world",
+        "https://github.com/nwalshgit/lxg_world.git#egg=lxg_world-0.0.1",
+        #"https://github.com/dmfigol/smartsheet-python.sdk/archive/no-setuptools-scm.zip#egg=smartsheet-python-sdk-10.1.3.3"
+    ]
     install_requires=pkgs,
     dependency_links=new_links,
 )
