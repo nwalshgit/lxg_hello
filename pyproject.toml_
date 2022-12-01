@@ -18,6 +18,10 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+    'pandas>=1.5.0',
+	'lxg-world==0.0.1'
+]
 
 [project.urls]
 "Homepage" = "https://github.com/nwalshgit/lxg_hello"
