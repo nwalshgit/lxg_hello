@@ -38,7 +38,7 @@ def install_deps():
 
 setup(
     install_requires=[
-       "pandas",
+       "<pandas> >= <1.5.0>;",
        "lxg-world==0.0.1",
     ],
     dependency_links=[
