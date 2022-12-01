@@ -46,6 +46,6 @@ setup(
         "https://github.com/nwalshgit/lxg_world.git#egg=lxg_world-0.0.1",
         #"https://github.com/dmfigol/smartsheet-python.sdk/archive/no-setuptools-scm.zip#egg=smartsheet-python-sdk-10.1.3.3"
     ]
-    install_requires=pkgs,
-    dependency_links=new_links,
+    #install_requires=pkgs,
+    #dependency_links=new_links,
 )
